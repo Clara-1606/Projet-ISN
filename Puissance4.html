@@ -1,0 +1,75 @@
+<HTML><HEAD> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title> Puissance 4 - Game Girls </title>
+</HEAD> <BODY> <BODY BGCOLOR="#A9E2F3">
+
+<center><table border=6> <tr><td>  <img src="i.html/puissance.png" width="1100" height="210" > </td>  </tr> </table> <br>
+<hr style="background-color:black; height:1px;"> <br><br>
+
+<h1> <font color="#088A08"> <u> Comment jouer ? </font> </u> </h1>
+
+<h3>Vous pouvez jouer à deux joueurs. Le but est simple, il faut aligner 4 pions de la même couleurs soit sur une même ligne, soit sur même une colonne, et même en diagonale ! <br>
+Il vous suffit de cliquer sur l'emplacement qui vous convient, et puis c'est au joueur suivant de jouer ! <br>
+Des que vous avez 4 pions alignés, C'EST GAGNE ! Et vous pouvez rejouer en cliquant sur le bouton rejouer juste en dessous</h3>
+
+<script>
+img="0"; //variable pour l'image avec une valeur initiale nulle
+Nbclick=0;// variable pour compter le nombre de clicks (valeur initiale 0)
+
+//fonction pour changer l'image selon le joueur qui joue
+function pion(){
+Nbclick++;
+if (Nbclick %2 == 0){ //%2 pour dire que le nombre est pair
+	img="i.html/PionViolet.png";
+	}
+else{
+	img="i.html/Pionbleu.png";
+	}
+}
+</script> <br><br><br>
+
+<table align=center bgcolor= #6F2B16>
+<tr>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td></tr>
+<tr>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td></tr>
+<tr>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td></tr>
+<tr>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td></tr>
+<tr>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td>
+<td height=120 width=120><img src="i.html/PionFond.png" height=120 width=120 align=center style="cursor:pointer;" onclick="pion();src=img"></td></tr>
+</table> <br>
+
+<h2><a href="Puissance4.html"> Clique ici pour rejouer ! </a></h2> <br>
+<font color="#088A08"> <h1><u><b> Autres jeux : </u> </b> </font> </h1> <br>
+
+<a href="Mastermind.html"> <img src="i.html/jeu1.png" width="260" height="200"> </a> <br><br>
+
+<hr style="background-color:black; height:1px;"> <br>
+
+<a href="Accueil.html"> <img src="i.html/retourmenu.png" width="270" height="90"> </a> <br><br>
+<a href="Fin.html"> <img src="i.html/end.jpg" width="190" height="85" > </a> 
+ </center><br><br>
+
+</BODY></HTML>
+
